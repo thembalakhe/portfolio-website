@@ -1,0 +1,12 @@
+
+nav {
+  padding: 1rem;
+  background: #2c584b;
+}
+
+nav a {
+  color: #ffffff;
+  padding-inline: 1rem;
+  text-decoration: none;
+  border-left: 1px solid #ffffff;
+}

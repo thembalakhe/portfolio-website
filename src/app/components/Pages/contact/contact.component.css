@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+}
+
+aside,
+.contacts {
+  display: grid;
+  background: #dedfde;
+  justify-items: center;
+}
+
+aside .image {
+  width: 16rem;
+  height: 14rem;
+  background: #78a381;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form {
+  padding: 2rem 8rem;
+}
+
+form,
+form label {
+  display: grid;
+  gap: .75rem;
+}
+
+input {
+  height: 1.5rem;
+  min-width: 16rem;
+}
+
+textarea {
+  min-height: 6rem;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  max-width: 40%;
+  padding-block: .5rem;
+  background: #2c584b;
+  border: 0;
+}
