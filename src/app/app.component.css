@@ -2,11 +2,21 @@
 .main {
   height: 100vh;
   display: grid;
-  align-content: center;
-  justify-content: center;
   background: #e9e8e8;
 }
 
 .router {
   background: #ffffff;
+}
+
+@media (min-width: 768px) {
+
+  .main {
+    align-content: center;
+    justify-content: center;
+  }
+
+  p {
+      max-width: 48rem;
+  }
 }
