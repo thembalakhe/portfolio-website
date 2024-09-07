@@ -6,21 +6,25 @@
   background: #ffffff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   
   .main {
     display: grid;
     align-content: center;
     justify-content: center;
     background: #e9e8e8;
-  } 
+  }
+
+  .router {
+    min-width: 55rem;
+  }
 
   p {
       max-width: 48rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 799px) {
 
   .main {
     display: grid;

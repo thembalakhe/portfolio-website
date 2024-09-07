@@ -1,4 +1,4 @@
-
+/**
 nav {
   padding: 1rem;
   background: #2c584b;
@@ -11,6 +11,24 @@ nav a {
   text-decoration: none;
   border-left: 1px solid #ffffff;
 }
+**/
+
+nav a {
+  padding: .5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  background: #2c584b;
+  border-radius: 2rem;
+}
+
+nav small {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: end;
+  background: #ffffff;
+  padding: 1rem;
+}
+
 
 
 @media (max-width: 768px) {

@@ -22,7 +22,7 @@ aside {
   .image {
     height: 10rem;
     width: 10rem;
-    border-radius:50%;
+    border-radius: 45%;
     background: #2c584b;
   }
   
@@ -39,7 +39,7 @@ a { color: #2c584b;}
 
   .main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: space-between;
     padding: 2rem 4rem;
     gap: 5rem;
