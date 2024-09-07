@@ -61,5 +61,5 @@ a { color: #2c584b;}
   input,
   textarea {  min-width: 100%;}
 
-  button {  width: 35%;}
+  button {  width: 35%; color: #ffffff;}
 }
