@@ -8,8 +8,9 @@
 
   button {
     padding: .5rem;
+    color: #ffffff;
     border: 0;
-    background: #2c584b;
+    background: #20201f;
   }
 }
 
@@ -17,23 +18,32 @@ aside {
 
   display: grid;
   gap: 1rem;
+  justify-items: center;
   text-align: center;
 
   .image {
-    height: 10rem;
-    width: 10rem;
-    border-radius: 45%;
-    background: #2c584b;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 46%;
+    background: #20201f;
   }
   
   .icons {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+    gap: 1rem;
+  }
+
+  .icons img {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 
 p { padding-bottom: .5rem;}
-a { color: #2c584b;}
+a { color: #20201f;}
 
 @media (min-width: 768px) {
 
@@ -41,7 +51,6 @@ a { color: #2c584b;}
     display: flex;
     justify-content: space-evenly;
     align-content: space-between;
-    padding: 2rem 4rem;
     gap: 5rem;
   }
 
@@ -55,11 +64,16 @@ a { color: #2c584b;}
   .main { 
     display: grid;
     gap: 2rem;
-    padding: 2rem;
   }
 
   input,
   textarea {  min-width: 100%;}
 
   button {  width: 35%; color: #ffffff;}
+}
+
+@media (min-width: 700px) {
+  main {
+    padding-top: 2rem;
+  }
 }
