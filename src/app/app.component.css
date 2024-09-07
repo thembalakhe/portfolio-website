@@ -11,8 +11,6 @@
     height: calc(100svh - 2rem);
     background: #ffffff;
     overflow-y: scroll;
-    border:  1rem solid #5e5c5c;
-    
   }
 
 }
