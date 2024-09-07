@@ -24,7 +24,6 @@
 
   .main {
     display: grid;
-    align-content: space-between;
   }
 
 }
