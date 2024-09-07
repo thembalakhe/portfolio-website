@@ -2,7 +2,6 @@
   display: grid;
   gap: 1rem;
 
-
   input {  height: 2rem;}
 
   textarea {  min-height: 6rem;}
