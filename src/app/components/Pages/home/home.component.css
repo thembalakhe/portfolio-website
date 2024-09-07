@@ -14,6 +14,10 @@
   padding-bottom: 1rem;
 }
 
+.main p {
+  padding-bottom: .5rem;
+}
+
 .main ul {
   list-style-position: inside;
 }
