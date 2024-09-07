@@ -1,59 +1,66 @@
-.main {
-  display: flex;
-}
-
-aside,
-.contacts {
+.form {
   display: grid;
-  background: #dedfde;
-  justify-items: center;
+  gap: 1rem;
+
+
+  input {  height: 2rem;}
+
+  textarea {  min-height: 6rem;}
+
+  button {
+    padding: .5rem;
+    border: 0;
+    background: #2c584b;
+  }
 }
 
-aside .image {
-  width: 16rem;
-  height: 14rem;
-  background: #78a381;
-}
+aside {
 
-.icons {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-form {
-  padding: 2rem 8rem;
-}
-
-form,
-form label {
   display: grid;
-  gap: .75rem;
+  gap: 1rem;
+  text-align: center;
+
+  .image {
+    height: 10rem;
+    width: 10rem;
+    border-radius:50%;
+    background: #2c584b;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
-input {
-  height: 1.5rem;
-  min-width: 16rem;
-}
+p { padding-bottom: .5rem;}
+a { color: #2c584b;}
 
-textarea {
-  min-height: 6rem;
-}
+@media (min-width: 768px) {
 
-button {
-  color: rgb(255, 255, 255);
-  max-width: 40%;
-  padding-block: .5rem;
-  background: #2c584b;
-  border: 0;
+  .main{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 2rem 4rem;
+    gap: 5rem;
+  }
+
+  input,
+  textarea {  min-width: 16rem;}
 }
 
 @media (max-width: 768px) {
 
-  .main {
+  .image {  display: none;}
+  .main { 
     display: grid;
+    gap: 2rem;
+    padding: 2rem;
   }
-  .image {
-    display: none;
-  }
+
+  input,
+  textarea {  min-width: 100%;}
+
+  button {  width: 35%;}
 }

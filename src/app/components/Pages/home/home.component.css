@@ -19,12 +19,12 @@
 }
 
 .main .date {
-  color: #505855;
   padding-bottom: .2rem;
 }
 
+.date,
 .main a,
 .main li {
-  color: #5c5a5a;
+  color: #4b4a4a;
   text-decoration: none;
 }
