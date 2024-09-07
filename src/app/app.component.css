@@ -1,11 +1,10 @@
 .main {
   min-height: 100svh;
 }
+
 .router {
-  height: 100%;
   background: #ffffff;
 }
-
 
 @media (min-width: 768px) {
   
@@ -25,7 +24,7 @@
 
   .main {
     display: grid;
-
+    align-content: space-between;
   }
 
 }
