@@ -26,6 +26,9 @@ aside {
     width: 8rem;
     border-radius: 46%;
     background: #20201f;
+    background: url("../../../../../public/image-jeremy.png");
+    background-position: center;
+    background-size: contain;
   }
   
   .icons {
@@ -51,9 +54,10 @@ a { color: #20201f;}
     display: flex;
     justify-content: space-evenly;
     align-content: space-between;
+    padding-top: 2rem;
     gap: 5rem;
   }
-
+  
   input,
   textarea {  min-width: 16rem;}
 }
@@ -70,10 +74,4 @@ a { color: #20201f;}
   textarea {  min-width: 100%;}
 
   button {  width: 35%; color: #ffffff;}
-}
-
-@media (min-width: 700px) {
-  main {
-    padding-top: 2rem;
-  }
 }

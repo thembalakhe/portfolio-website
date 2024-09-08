@@ -3,10 +3,15 @@ p {
   padding-bottom: 1.8rem;
 }
 
-.projects .links,
 .icons {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+
+  img {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 @media (min-width: 700px) {
@@ -14,5 +19,4 @@ p {
     padding-block: 2rem;
     padding-inline: 4rem;
   }
-
 }
