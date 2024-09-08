@@ -54,7 +54,7 @@ a { color: #20201f;}
     display: flex;
     justify-content: space-evenly;
     align-content: space-between;
-    padding-top: 2rem;
+    padding-block: 2rem;
     gap: 5rem;
   }
   
