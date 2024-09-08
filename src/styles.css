@@ -15,3 +15,7 @@ a {
   color: #20201f;
   text-decoration: none;
 }
+
+ul {
+  list-style-position: inside;
+}

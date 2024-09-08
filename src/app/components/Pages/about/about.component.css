@@ -7,11 +7,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-
-  img {
-    height: 40px;
-    width: 40px;
-  }
 }
 
 @media (min-width: 700px) {
