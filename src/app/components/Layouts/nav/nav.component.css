@@ -19,7 +19,6 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1rem;
   background: #20201f;
 
   a {
@@ -32,6 +31,8 @@ nav {
   }
 }
 
-@media (max-width: 768px) {
-
+@media (min-width: 512px) {
+  nav {
+    padding: 1rem;
+  }
 }
