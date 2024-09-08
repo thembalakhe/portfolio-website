@@ -1,3 +1,14 @@
+.frame {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+
+iframe {
+  overflow: hidden;
+  border: .15rem solid #20201f;
+  border-radius: .1rem;
+}
 
 @media (min-width: 700px) {
 
@@ -8,18 +19,16 @@
     gap: 8rem;
     padding: 2rem;
   }
-
-  .frame {
-    display: grid;
-  }
   
   iframe {
     width: 18rem;
     height: 18rem;
-    border: 5px solid #20201f;
   }
 }
 
 @media (max-width: 700px) {
 
+  main div {
+    padding-block: .5rem;
+  }
 }

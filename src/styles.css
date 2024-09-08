@@ -10,3 +10,8 @@ html {
   scroll-behavior: smooth;
   overflow-wrap: anywhere;
 }
+
+a {
+  color: #20201f;
+  text-decoration: none;
+}
