@@ -16,4 +16,4 @@ Run `ng generate component component-name` to generate a new component. Replace 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-[Link to Website.(https://site107.netlify.app/home)
+[Link to website](https://site107.netlify.app/home)
